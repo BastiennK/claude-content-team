@@ -1,0 +1,54 @@
+# Your personal content stays out of the repo
+projects/*
+!projects/.gitkeep
+research/*
+!research/.gitkeep
+inspiration/*
+!inspiration/.gitkeep
+instagram/*
+!instagram/.gitkeep
+voice/samples/*
+!voice/samples/.gitkeep
+
+# Editing kit files (licensed assets, large media)
+assets/premiere/*/*
+!assets/premiere/*/.gitkeep
+
+# Installed skill packs (install them yourself, see README)
+vendor/
+.claude/skills/claude-youtube/
+.claude/skills/ig-*/
+.claude/skills/last30days/
+.claude/skills/content-strategy/
+.claude/skills/copy-editing/
+.claude/skills/copywriting/
+.claude/skills/marketing-psychology/
+.claude/skills/social/
+
+# Local environments, secrets and settings
+tools/.venv*/
+node_modules/
+remotion/node_modules/
+.env
+*.env
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Media and design files
+*.psd
+*.psb
+*.mov
+*.MOV
+*.mp4
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+!docs/**/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
