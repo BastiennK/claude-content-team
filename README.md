@@ -2,6 +2,8 @@
 
 **A whole YouTube and Instagram content team, built from Claude Code agents.** It finds what's working, plans the week, outlines videos in your voice, designs thumbnails (and builds them in Photoshop), plans edits for Premiere, and turns one long-form video into 5+ Reels.
 
+📄 **New here? Start with the [Setup Guide (PDF)](Setup-Guide.pdf).**
+
 Everything is plain text: agents and playbooks you can read, edit and make your own. Nothing expensive happens without your OK. Every thumbnail, edit and motion graphic starts with a one-screen plan, and work only starts after you say go.
 
 ```mermaid
